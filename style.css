@@ -7,6 +7,7 @@ body {
     font-family: Roboto;
     display: flex;
     flex-direction: column;
+    gap: 128px;
 }
 
 .top {
@@ -68,11 +69,11 @@ body {
     flex: auto;
 }
 
-.button {
+.button, .button2{
     height: 48px;
     width: 96px;
     background-color: #3882f6;
-    color: #f9faf8;color;
+    color: #f9faf8;
     font-size: 24px;
     border-radius: 8px;
     border-width: 0;
@@ -113,4 +114,65 @@ body {
     justify-content: space-between;
     align-items: center;
     gap: 150px;
+}
+
+.quote {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: 300;
+    margin-top: 128px;
+    margin-left: 256px;
+    margin-right: 256px;
+}
+
+.quote-name {
+    font-size: 36px;
+    font-weight: 700;
+    margin-bottom: 128px;
+    align-self: flex-end;
+    margin-right: 256px;
+}
+
+.quote-container{
+    display: flex;
+    background-color: #e5e7eb;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: -8px;
+}
+
+.sign-up-container {
+    display: flex;
+    background-color: #3882f6;
+    margin-left: 128px;
+    margin-right: 128px;
+    border-radius: 8px;
+    padding: 32px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.bold-text {
+    font-weight: 700;
+}
+
+.sign-text {
+    color: #e5e7eb;
+    font-size: 18px;
+}
+
+.button2 {
+    border-color: #e5e7eb;
+    border-width: 2px;
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    color: #f9faf8;
+    align-items: center;
+    justify-content: center;
+    padding: 48px;
+    margin: -8px;
 }
