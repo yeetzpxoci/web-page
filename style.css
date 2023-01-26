@@ -1,16 +1,21 @@
+html {
+    height: 100%;
+}
+
 body {
+    min-height: 100%;
     font-family: Roboto;
     display: flex;
+    flex-direction: column;
 }
 
 .top {
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
+    gap: 32px;
     flex: auto;
     background-color: #1f2937;
     margin: -8px;
-    height: 600px;
 }
 
 .header {
@@ -48,6 +53,8 @@ body {
 .main-left{
     display: flex;
     flex-direction: column;
+    justify-content: space-between;
+    gap: 16px;
 }
 
 .main-text {
@@ -59,4 +66,41 @@ body {
 .image-container {
     display: flex;
     flex: auto;
+}
+
+.button {
+    height: 48px;
+    width: 96px;
+    background-color: #3882f6;
+    color: #f9faf8;color;
+    font-size: 24px;
+    border-radius: 8px;
+    border-width: 0;
+}
+
+.middle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    gap: 64px;
+    margin-top: 64px;
+    margin-bottom: 128px;
+}
+
+.information {
+    font-size: 36px;
+    font-weight: bolder;
+}
+
+.mid-container {
+    display: flex;
+    justify-content: space-between;
+    gap: 64px;
+}
+
+.icon-img {
+    flex: 1 1 auto;
+    border-width: 24px;
+    border-color: #3882f6;
 }
